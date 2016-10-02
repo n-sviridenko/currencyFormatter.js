@@ -1292,3 +1292,6 @@ OSREC.CurrencyFormatter =
 	}
 };
 
+if (typeof require === 'function' && typeof exports === 'object') {
+	module.exports = OSREC.CurrencyFormatter;
+}
